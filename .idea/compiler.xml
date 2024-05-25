@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="oscar-hito-1" />
-        <module name="elias-hito-1" />
-        <module name="desafio-1" />
+        <module name="desafio-1-v1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="elias-hito-1" target="1.8" />
+      <module name="oscar-hito-1" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
