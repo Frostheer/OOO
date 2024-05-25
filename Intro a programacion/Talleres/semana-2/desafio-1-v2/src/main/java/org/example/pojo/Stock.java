@@ -23,7 +23,7 @@ public class Stock {
     }
 
     public void mostrarStockActual() {
-        stock.forEach((llave, contenido) -> System.out.println("\nStock actual: \n" + llave + ":" + contenido));
+        stock.forEach((llave, contenido) -> System.out.println("\nStock actual:" + llave + ":" + contenido));
 
     }
 
